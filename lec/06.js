@@ -17,7 +17,7 @@ function callFunction (func) {
 callFunction(sayHello); // Hello!
 
 // 3. 함수를 반환할 수 있다.
-function createAdder(num) {
+function createAdder(num) { 
     return function (x) {
         return x + num;
     };
